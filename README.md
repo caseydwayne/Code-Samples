@@ -13,8 +13,6 @@ Code-Samples
 
 ---
 
-I have tried to include code samples relevant to what we discussed (database exchanges, security, complex functions, etc)
-  
-I can also encapsulate using classes, I just generally prefer to do this as a last step, and if necessary.
+I have tried to include code samples relevant to what we discussed (database exchanges, security, complex functions, etc). I can also encapsulate using classes, I just generally prefer to do this as a last step, and if necessary.
   
 If you would like to see more PHP or samples of JavaScript, just let me know.
