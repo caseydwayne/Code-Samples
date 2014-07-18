@@ -5,7 +5,7 @@ Code-Samples
 
  - **breadcrumbs.php** - creates a breadcrumb navigation based on the URL provided
  
- - **data.php** - an sample of 2 functions used in the Database Manager
+ - **data.php** - a sample of 2 functions used in the Database Manager
   
  - **emailer.php** - converts form data into an email after validating/sanitizing input
 
