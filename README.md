@@ -17,5 +17,4 @@ I have tried to include code samples relevant to what we discussed (database exc
   
 I can also encapsulate using classes, I just generally prefer to do this as a last step, and if necessary.
   
-  
-  ####If you would like to see more PHP or samples of JavaScript, just let me know.
+If you would like to see more PHP or samples of JavaScript, just let me know.
