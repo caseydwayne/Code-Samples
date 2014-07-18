@@ -1,17 +1,17 @@
 Code-Samples
 ============
 
-###A collection of various scripts with heavy bias towards PHP.
+###*A collection of various scripts with heavy bias towards PHP.*
 
- - breadcrumbs.php - creates a breadcrumb navigation based on the URL provided
+ - **breadcrumbs.php** - creates a breadcrumb navigation based on the URL provided
  
- - data.php - an sample of 2 functions used in the Database Manager
+ - **data.php** - an sample of 2 functions used in the Database Manager
   
- - emailer.php - converts form data into an email after validating/sanitizing input
+ - **emailer.php** - converts form data into an email after validating/sanitizing input
 
- - restaurant-filler-table.php - distributes parties (for events) by company, grouping together as close as possible
+ - **restaurant-filler-table.php** - distributes parties (for events) by company, grouping together as close as possible
 
-
+---
 
 I have tried to include code samples relevant to what we discussed (database exchanges, security, complex functions, etc)
   
