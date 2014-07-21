@@ -13,6 +13,8 @@ Code-Samples
 
 ---
 
-I have tried to include code samples relevant to what we discussed (database exchanges, security, complex functions, etc). I can also encapsulate using classes, I just generally prefer to do this as a last step, and if necessary.
+I can also encapsulate using classes.
   
-If you would like to see more PHP or samples of JavaScript, just let me know.
+There is a short, 3 minute video demonstrating my functional CMS and it's applications (currently in Beta) located at https://vimeo.com/101086230
+
+Additional code samples of JS, CSS, or HTML are available upon request.
