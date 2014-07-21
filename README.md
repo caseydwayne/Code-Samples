@@ -15,6 +15,6 @@ Code-Samples
 
 I can also encapsulate using classes.
   
-There is a short, 3 minute video demonstrating my functional CMS and it's applications (currently in Beta) located at https://vimeo.com/101086230
+> There is a short, 3 minute video demonstrating my functional CMS and it's applications (currently in Beta) located at https://vimeo.com/101086230
 
 Additional code samples of JS, CSS, or HTML are available upon request.
