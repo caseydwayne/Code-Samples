@@ -14,30 +14,31 @@ function data_update($table,$item){
   $values = inputs($table,$item);
   $sqlValues = '';
   $outputs = array();
-	foreach($values as $k => $v){
-	  ${$k} = $v;
-	  $sqlValues .= "$k=:$k,";			 
-	  echo "$k:$v | ";
-	}
-	  $id = $item; //Overwrites Disabled (empty) ID
-	  $sqlValues = rtrim($sqlValues,',');
 
-	try{
-	//Initialize Database
-	  
-	//Setup SQL string	  
-  	  $sql = "UPDATE $table SET $sqlValues WHERE id=:id";
-	//Prepare, bind and transmit Values	  
-	  $stmt = $db->prepare($sql);
-	    foreach($values as $k => $v){
-          $stmt -> bindValue(":$k",${$k},PDO::PARAM_STR);
-        }  
-       $stmt -> execute();  
-	  success($table,'Update',$values);
-	}
-	catch(Exception $e){
-	  die("Update Failed");
-    }
+  foreach($values as $k => $v){
+    ${$k} = $v;
+    $sqlValues .= "$k=:$k,";			 
+    echo "$k:$v | ";
+  }
+
+  $id = $item; //Overwrites Disabled (empty) ID
+  $sqlValues = rtrim($sqlValues,',');
+
+  try{
+  //Initialize Database
+  //Setup SQL string	  
+    $sql = "UPDATE $table SET $sqlValues WHERE id=:id";
+  //Prepare, bind and transmit Values	  
+    $stmt = $db->prepare($sql);
+    foreach($values as $k => $v){
+      $stmt -> bindValue(":$k",${$k},PDO::PARAM_STR);
+    }  
+    $stmt -> execute();  
+    success($table,'Update',$values);
+  }
+  catch(Exception $e){
+    die("Update Failed");
+  }
 }
 
 /*********************************************************************/		
@@ -49,10 +50,10 @@ function data_delete($table,$item) {
 //Convert item to id	
   $id = $item;
   //Setup Database Logic/Commands
-	$sql = "DELETE FROM $table WHERE id=:id";	
-    $stmt = $db->prepare($sql);
-	$stmt -> bindValue(':id', $id, PDO::PARAM_STR);	
-	$stmt -> execute();
+  $sql = "DELETE FROM $table WHERE id=:id";	
+  $stmt = $db->prepare($sql);
+  $stmt -> bindValue(':id', $id, PDO::PARAM_STR);	
+  $stmt -> execute();
   //Report Success
   success($table,'Deletion','');
 }
