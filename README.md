@@ -1,7 +1,7 @@
 Code-Samples
 ============
 
-###*A collection of various scripts with heavy bias towards PHP.*
+*A collection of various scripts with heavy bias towards PHP.*
 
  - **breadcrumbs.php** - creates a breadcrumb navigation based on the URL provided
  
